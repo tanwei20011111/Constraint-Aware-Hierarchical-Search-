@@ -69,6 +69,8 @@ Prompt definition: [`tree_index.py:51-73`](regtree_agent/tree_index.py#L51) · [
 
 > **rules injection**: `hierarchy_hints` (层级编码规则 + few-shot 提取示例) 和 `code_format_hint` (code 字段格式说明) 均来自 [`rules/<dataset>/rule_profiles.json`](rules)，由 LLM 分析文本样本自动生成。运行时拼接到 `CHUNK_EXTRACT_TASK` 末尾作为第 8 条规则。
 >
+> 不同数据集的编码体系、层级深度、编号格式各不相同，因此 `hierarchy_hints` 和 `code_format_hint` 的内容会因数据集而异。这样做的好处是：建树提示词无需手动编写，LLM 只需分析少量样本即可自动适配新的法规文档；few-shot 示例直接从原文归纳，确保 code 拼接、children 嵌套与实际数据集一致，提升建树质量。
+>
 > 以进出口税则为例，`hierarchy_hints` 包含：
 > ```
 > **层级规则：**
