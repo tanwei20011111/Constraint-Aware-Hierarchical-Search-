@@ -1,6 +1,0 @@
-# Python >=3.11
-# Generated from conda environment: hscode_research
-
-# Core dependencies
-openai==2.15.0
-numpy==2.4.1
