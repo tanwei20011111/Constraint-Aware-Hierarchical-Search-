@@ -32,41 +32,41 @@ def main() -> None:
     parser.add_argument("--rule", help="Override extraction rule for all input files")
     parser.add_argument("--rule-map", help="JSON file mapping filename patterns to rule names")
     parser.add_argument("--rule-file", help="JSON file defining extraction rule profiles")
-    parser.add_argument("--dataset-name", help="Dataset-specific rules directory name under rules/")
-    parser.add_argument("--dataset-path", help="Dataset file path used to derive rules/<dataset_name>/")
+    parser.add_argument("--dataset-name", help="Dataset name, maps to rules/<dataset-name>/")
+    parser.add_argument("--dataset-path", help="Dataset file path to derive rules/<dataset_name>/")
     parser.add_argument(
         "--resume",
         action="store_true",
-        help="Resume an interrupted LLM tree build from checkpoint (enabled by default)",
+        help="Resume interrupted build from checkpoint (default)",
     )
     parser.add_argument(
         "--no-resume",
         action="store_true",
-        help="Disable checkpoint resume and rebuild from scratch",
+        help="Disable checkpoint resume, rebuild from scratch",
     )
     parser.add_argument(
         "--checkpoint-file",
-        help="Optional checkpoint file path for interrupted LLM tree builds",
+        help="Custom checkpoint file path",
     )
     parser.add_argument(
         "--print-llm-units",
         action="store_true",
-        help="Print raw and normalized LLM-extracted units during llm tree building",
+        help="Print raw and normalized LLM-extracted units",
     )
     parser.add_argument(
         "--print-llm-window-split",
         action="store_true",
-        help="Print LLM window split prompt/payload and rebuilt windows during llm tree building",
+        help="Print LLM window split prompt/payload and rebuilt windows",
     )
     parser.add_argument(
         "--print-llm-unit-attachments",
         action="store_true",
-        help="Print how normalized units are attached to evidence chunks during llm tree building",
+        help="Print how units are attached to evidence chunks",
     )
     parser.add_argument(
         "--reuse-tree",
         action="store_true",
-        help="Reuse the existing tree JSON and rebuild only the vectors file",
+        help="Reuse existing tree JSON, rebuild vectors only",
     )
     args = parser.parse_args()
 

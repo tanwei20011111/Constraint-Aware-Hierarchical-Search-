@@ -266,108 +266,108 @@ def query_command(args: argparse.Namespace) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Online regulation tree build/query CLI")
+    parser = argparse.ArgumentParser(description="Regulation tree build/query CLI")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     build_parser = subparsers.add_parser("build", help="Build tree and embedding index")
-    build_parser.add_argument("--tree-file", help=f"Tree file name under rag-storage/<dataset-name>/; default {DEFAULT_TREE_FILE}")
-    build_parser.add_argument("--vectors-file", help=f"Vector file name under rag-storage/<dataset-name>/; default {DEFAULT_VECTORS_FILE}")
+    build_parser.add_argument("--tree-file", help=f"Tree file under rag-storage/<dataset-name>/; default {DEFAULT_TREE_FILE}")
+    build_parser.add_argument("--vectors-file", help=f"Vector file under rag-storage/<dataset-name>/; default {DEFAULT_VECTORS_FILE}")
     build_parser.add_argument("--rule", help="Override extraction rule for all input files")
     build_parser.add_argument("--rule-map", help="JSON file mapping filename patterns to rule names")
     build_parser.add_argument("--rule-file", help="JSON file defining extraction rule profiles")
-    build_parser.add_argument("--dataset-name", help="Dataset-specific rules directory name under rules/")
-    build_parser.add_argument("--dataset-path", help="Dataset file path used to derive rules/<dataset_name>/")
+    build_parser.add_argument("--dataset-name", help="Dataset name, maps to rules/<dataset-name>/")
+    build_parser.add_argument("--dataset-path", help="Dataset file path to derive rules/<dataset_name>/")
     build_parser.add_argument(
         "--resume",
         action="store_true",
-        help="Resume an interrupted LLM tree build from checkpoint (enabled by default)",
+        help="Resume interrupted build from checkpoint (default)",
     )
     build_parser.add_argument(
         "--no-resume",
         action="store_true",
-        help="Disable checkpoint resume and rebuild from scratch",
+        help="Disable checkpoint resume, rebuild from scratch",
     )
     build_parser.add_argument(
         "--checkpoint-file",
-        help="Optional checkpoint file path for interrupted LLM tree builds",
+        help="Custom checkpoint file path",
     )
     build_parser.add_argument(
         "--print-llm-units",
         action="store_true",
-        help="Print raw and normalized LLM-extracted units during llm tree building",
+        help="Print raw and normalized LLM-extracted units",
     )
     build_parser.add_argument(
         "--print-llm-window-split",
         action="store_true",
-        help="Print LLM window split prompt/payload and rebuilt windows during llm tree building",
+        help="Print LLM window split prompt/payload and rebuilt windows",
     )
     build_parser.add_argument(
         "--print-llm-unit-attachments",
         action="store_true",
-        help="Print how normalized units are attached to evidence chunks during llm tree building",
+        help="Print how units are attached to evidence chunks",
     )
     build_parser.add_argument(
         "--reuse-tree",
         action="store_true",
-        help="Reuse the existing tree JSON and rebuild only the vectors file",
+        help="Reuse existing tree JSON, rebuild vectors only",
     )
     build_parser.set_defaults(func=build_command)
 
     query_parser = subparsers.add_parser("query", help="Query built tree index")
     query_parser.add_argument("query")
-    query_parser.add_argument("--dataset-name", help="Dataset storage directory name under rag-storage/")
-    query_parser.add_argument("--tree-file", help=f"Tree file name under rag-storage/<dataset-name>/; default {DEFAULT_TREE_FILE}")
-    query_parser.add_argument("--vectors-file", help=f"Vector file name under rag-storage/<dataset-name>/; default {DEFAULT_VECTORS_FILE}")
-    query_parser.add_argument("--branch-top-k", type=int, default=5)
+    query_parser.add_argument("--dataset-name", help="Dataset name under rag-storage/")
+    query_parser.add_argument("--tree-file", help=f"Tree file under rag-storage/<dataset-name>/; default {DEFAULT_TREE_FILE}")
+    query_parser.add_argument("--vectors-file", help=f"Vector file under rag-storage/<dataset-name>/; default {DEFAULT_VECTORS_FILE}")
+    query_parser.add_argument("--branch-top-k", type=int, default=5, help="Top-K child candidates per branch node")
     query_parser.add_argument(
         "--global-top-k",
         type=int,
         default=8,
-        help="每层额外注入的全局向量召回节点数；设为 0 可关闭",
+        help="Top-K global retrieval candidates; set 0 to disable",
     )
-    query_parser.add_argument("--max-depth", type=int, default=8)
-    query_parser.add_argument("--max-rounds", type=int, default=3)
-    query_parser.add_argument("--max-stagnation-rounds", type=int, default=2)
+    query_parser.add_argument("--max-depth", type=int, default=8, help="Max search depth per pass")
+    query_parser.add_argument("--max-rounds", type=int, default=3, help="Max multi-round search rounds")
+    query_parser.add_argument("--max-stagnation-rounds", type=int, default=2, help="Early-stop rounds when no new findings")
     query_parser.add_argument(
         "--candidate-field-mode",
         choices=["title_only", "title_evidence", "title_text", "full"],
         default="full",
-        help="候选节点字段消融模式，默认 full",
+        help="Candidate node field ablation mode, default full",
     )
     query_parser.add_argument(
         "--print-candidate-packages",
         action="store_true",
-        help="Print full candidate packages Gamma(u) for each search depth to stderr",
+        help="Print full candidate packages Gamma(u) per depth",
     )
     query_parser.add_argument(
         "--print-llm-inputs",
         action="store_true",
-        help="Print the full system prompt and user payload before each chat model call",
+        help="Print full system prompt and user payload before each model call",
     )
     query_parser.add_argument(
         "--print-similarity-trace",
         action="store_true",
-        help="Print the local similarity formula trace for each depth, including query/node vector previews",
+        help="Print similarity trace per depth with query/node vector previews",
     )
     query_parser.add_argument(
         "--print-answer-trace",
         action="store_true",
-        help="Print formula traces for multi-round history H^(r) and final answer a^(r)=G_theta(x,p^(r)(x),E^(r)(x))",
+        help="Print multi-round history and final answer formula traces",
     )
     query_parser.add_argument(
         "--print-aggregation-trace",
         action="store_true",
-        help="Print cross-round aggregation details, including merged nodes, merged evidence, and alignment",
+        help="Print cross-round aggregation details (merged nodes, evidence, alignment)",
     )
-    query_parser.add_argument("--quiet", action="store_true", help="Hide query progress logs on stderr")
+    query_parser.add_argument("--quiet", action="store_true", help="Suppress progress logs on stderr")
     query_parser.add_argument(
         "--expand-from-root",
         action="store_true",
-        help="消融实验：从根节点展开子节点，第一层不使用全局检索",
+        help="Ablation: expand from root, disable global retrieval at depth 0",
     )
     query_parser.add_argument(
         "--trace-output",
-        help="将结构化搜索 trace 导出为 JSON 文件路径（用于可视化）",
+        help="Export structured search trace to a JSON file",
     )
     query_parser.set_defaults(func=query_command)
 
