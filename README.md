@@ -63,17 +63,17 @@ python scripts/regtree_cli.py query --dataset-name my_dataset "titanium dioxide;
 
 ## Algorithm
 
+### Query Compression (Ψ)
+
+**q<sub>ret</sub> = Ψ(x)**
+
+Prompt definition: [`search.py:927-944`](regtree_agent/search.py#L927)
+
 ### LLM Candidate Selection (F<sub>θ</sub>)
 
 **(v<sub>t+1</sub>, σ<sub>t</sub>, ρ<sub>t</sub>, η<sub>t</sub>) = F<sub>θ</sub>(x, v<sub>t</sub>, {Γ(u)}<sub>u ∈ C<sub>t</sub>(x)</sub>)**
 
 Prompt definition: [`search.py:1209-1228`](regtree_agent/search.py#L1209)
-
-### Anchor Extraction (Ψ)
-
-**q<sub>ret</sub> = Ψ(x)**
-
-Prompt definition: [`search.py:927-944`](regtree_agent/search.py#L927)
 
 ---
 
