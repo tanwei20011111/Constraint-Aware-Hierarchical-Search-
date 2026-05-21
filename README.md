@@ -63,8 +63,7 @@ python scripts/regtree_cli.py query --dataset-name my_dataset "titanium dioxide;
 
 ## Algorithm
 
-<a id="tree-construction-h"></a>
-### Tree Construction (H)
+<h3 id="tree-construction">Tree Construction (H)</h3>
 
 Prompt definition: [`tree_index.py:51-73`](regtree_agent/tree_index.py#L51) · [with rules injection → `tree_index.py:876-911`](regtree_agent/tree_index.py#L876)
 
@@ -137,22 +136,19 @@ Prompt definition: [`tree_index.py:51-73`](regtree_agent/tree_index.py#L51) · [
 > - "97.01.21" = 超过100年的油画、粉画及其他手绘画
 > ```
 
-<a id="query-compression"></a>
-### Query Compression (Ψ)
+<h3 id="query-compression">Query Compression (Ψ)</h3>
 
 **q<sub>ret</sub> = Ψ(x)**
 
 Prompt definition: [`search.py:927-944`](regtree_agent/search.py#L927)
 
-<a id="llm-candidate-selection"></a>
-### LLM Candidate Selection (F<sub>θ</sub>)
+<h3 id="llm-candidate-selection">LLM Candidate Selection (F<sub>θ</sub>)</h3>
 
 **(v<sub>t+1</sub>, σ<sub>t</sub>, ρ<sub>t</sub>, η<sub>t</sub>) = F<sub>θ</sub>(x, v<sub>t</sub>, {Γ(u)}<sub>u ∈ C<sub>t</sub>(x)</sub>)**
 
 Prompt definition: [`search.py:1209-1228`](regtree_agent/search.py#L1209)
 
-<a id="answer-generation"></a>
-### Answer Generation (G<sub>θ</sub>)
+<h3 id="answer-generation">Answer Generation (G<sub>θ</sub>)</h3>
 
 **ŷ = G<sub>θ</sub>(x, p(x), S(x))**
 
