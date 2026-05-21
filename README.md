@@ -69,6 +69,12 @@ python scripts/regtree_cli.py query --dataset-name my_dataset "titanium dioxide;
 
 Prompt definition: [`search.py:1209-1228`](regtree_agent/search.py#L1209)
 
+### Anchor Extraction (Ψ)
+
+**q<sub>ret</sub> = Ψ(x)**
+
+Prompt definition: [`search.py:927-944`](regtree_agent/search.py#L927)
+
 ---
 
 ## Project Structure
