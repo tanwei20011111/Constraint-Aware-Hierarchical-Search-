@@ -75,6 +75,12 @@ Prompt definition: [`search.py:927-944`](regtree_agent/search.py#L927)
 
 Prompt definition: [`search.py:1209-1228`](regtree_agent/search.py#L1209)
 
+### Answer Generation (G<sub>θ</sub>)
+
+**ŷ = G<sub>θ</sub>(x, p(x), S(x))**
+
+Prompt definition: [`search.py:1549-1564`](regtree_agent/search.py#L1549)
+
 ---
 
 ## Project Structure

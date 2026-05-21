@@ -1553,11 +1553,8 @@ class RegTreeSearcher:
             "evidence": evidence,
             "explored_rounds": explored_rounds or [],
             "output_schema": {
-                "reasoning": (
-                    "中文推理过程：先汇总证据，再分析匹配/排除理由，最后得出编码结论。"
-                ),
-                "answer": "中文回答，必须受证据约束；证据充分时包含最终编码且最后一行尽量只输出最终编码，证据不足时不得输出编码",
-                "final_code": "字符串。只能是空字符串、四位品目编码或六位子目编码。",
+                "answer": "先汇总证据，再分析匹配/排除理由，仔细核对限定条件，必须受证据约束。证据充分时包含最终编码且最后一行尽量只输出最终编码，证据不足时不得输出编码",
+                "final_code": "最符合要求的编码，不要输出额外内容。",
                 "confidence": "0 到 1 的浮点数",
                 "used_chunk_ids": "实际用到的 chunk_id 列表",
             },
