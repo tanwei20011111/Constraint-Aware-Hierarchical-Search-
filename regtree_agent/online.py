@@ -9,6 +9,14 @@ from typing import Any, Callable
 
 from openai import BadRequestError, OpenAI
 
+from .prompts import (
+    JSON_FALLBACK_SUFFIX,
+    JSON_REPAIR_SYSTEM_PROMPT,
+    JSON_REPAIR_USER_TEMPLATE,
+    JSON_RETRY_SYSTEM_SUFFIX,
+    JSON_RETRY_USER_TEMPLATE,
+)
+
 from .config import Settings
 
 
@@ -114,25 +122,16 @@ def _is_empty_length_response(result: ChatCompletionResult) -> bool:
 
 
 def _build_json_repair_prompt(content: str) -> str:
-    return (
-        "下面是一段本应为 JSON 对象的模型输出，但它格式有误。"
-        "请在尽量保留原意的前提下，将其修复为一个合法的 JSON 对象。"
-        "不要添加解释，不要使用 Markdown 代码块，只输出 JSON 对象本身。\n\n"
-        f"{content}"
-    )
+    return JSON_REPAIR_USER_TEMPLATE.format(content=content)
 
 
 def _build_json_retry_prompt(user_prompt: str, invalid_content: str, error: Exception) -> str:
     invalid_preview = _preview_text(invalid_content) if invalid_content.strip() else "[empty response]"
-    return (
-        "请重新完成原任务，并且这次必须只输出一个合法 JSON 对象。"
-        "不要输出解释、寒暄、Markdown 或代码块。"
-        "如果某些字段无法确定，也要返回 JSON 对象并尽量保留空字符串、空数组或空对象，"
-        "不要改成文字说明。\n\n"
-        f"上一次无效回复预览:\n{invalid_preview}\n\n"
-        f"上一次解析错误:\n{type(error).__name__}: {error}\n\n"
-        "原始任务如下:\n"
-        f"{user_prompt}"
+    return JSON_RETRY_USER_TEMPLATE.format(
+        invalid_preview=invalid_preview,
+        error_type=type(error).__name__,
+        error=error,
+        user_prompt=user_prompt,
     )
 
 
@@ -294,11 +293,7 @@ class OnlineClients:
                 repair_result = ChatCompletionResult(text="", finish_reason="", refusal="")
                 try:
                     repair_result = self._chat_completion_result(
-                        system_prompt=(
-                            "你是 JSON 修复助手。"
-                            "你的任务是把用户提供的内容修复成一个合法 JSON 对象。"
-                            "不得输出解释，不得输出代码块。"
-                        ),
+                        system_prompt=JSON_REPAIR_SYSTEM_PROMPT,
                         user_prompt=_build_json_repair_prompt(content),
                         temperature=0,
                         response_format={"type": "json_object"},
@@ -312,11 +307,7 @@ class OnlineClients:
                     )
             retry_prompt = _build_json_retry_prompt(user_prompt, content, exc)
 
-        retry_system_prompt = (
-            f"{system_prompt}\n\n"
-            "重要：你必须只返回一个合法 JSON 对象。"
-            "禁止任何解释、寒暄、前后缀文本和 Markdown 代码块。"
-        )
+        retry_system_prompt = system_prompt + JSON_RETRY_SYSTEM_SUFFIX
         retry_result = self._chat_completion_result(
             system_prompt=retry_system_prompt,
             user_prompt=retry_prompt,
@@ -336,11 +327,7 @@ class OnlineClients:
                 retry_repair_result = ChatCompletionResult(text="", finish_reason="", refusal="")
                 try:
                     retry_repair_result = self._chat_completion_result(
-                        system_prompt=(
-                            "你是 JSON 修复助手。"
-                            "你的任务是把用户提供的内容修复成一个合法 JSON 对象。"
-                            "不得输出解释，不得输出代码块。"
-                        ),
+                        system_prompt=JSON_REPAIR_SYSTEM_PROMPT,
                         user_prompt=_build_json_repair_prompt(retry_content),
                         temperature=0,
                         response_format={"type": "json_object"},
@@ -356,10 +343,7 @@ class OnlineClients:
                 fallback_result = ChatCompletionResult(text="", finish_reason="", refusal="")
                 try:
                     self._chat_supports_response_format = False
-                    fallback_system_prompt = (
-                        f"{retry_system_prompt}\n\n"
-                        "只输出一个紧凑 JSON 对象，reason 字段用短句。"
-                    )
+                    fallback_system_prompt = retry_system_prompt + JSON_FALLBACK_SUFFIX
                     fallback_result = self._chat_completion_result(
                         system_prompt=fallback_system_prompt,
                         user_prompt=retry_prompt,

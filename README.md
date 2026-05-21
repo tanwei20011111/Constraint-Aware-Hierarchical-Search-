@@ -61,6 +61,27 @@ python scripts/regtree_cli.py query --dataset-name my_dataset "titanium dioxide;
 
 ---
 
+## Algorithm
+
+### LLM Candidate Selection (F<sub>θ</sub>)
+
+At each layer of the hierarchical tree search, the system invokes an LLM selection function:
+
+**(v<sub>t+1</sub>, σ<sub>t</sub>, ρ<sub>t</sub>, η<sub>t</sub>) = F<sub>θ</sub>(x, v<sub>t</sub>, {Γ(u)}<sub>u ∈ C<sub>t</sub>(x)</sub>)**
+
+| Symbol | Meaning | Prompt / Code |
+|--------|---------|---------------|
+| x | User query | `query` field |
+| v<sub>t</sub> | Current node | `current_node` field |
+| {Γ(u)} | Candidate packages | `candidates` field |
+| **F<sub>θ</sub>** | **LLM selection function** | **[System prompt → `prompts.py:20`](regtree_agent/prompts.py#L20) · [Task prompt → `prompts.py:37`](regtree_agent/prompts.py#L37) · [Implementation → `search.py:1188`](regtree_agent/search.py#L1188)** |
+| v<sub>t+1</sub> | Selected node (`selected_id`) | [`output_schema.selected_id`](regtree_agent/search.py#L1222) |
+| σ<sub>t</sub> | Stop signal | [`output_schema.stop`](regtree_agent/search.py#L1223) |
+| ρ<sub>t</sub> | Confidence | [`output_schema.confidence`](regtree_agent/search.py#L1224) |
+| η<sub>t</sub> | Rationale | [`output_schema.reason`](regtree_agent/search.py#L1225) |
+
+---
+
 ## Project Structure
 
 ```

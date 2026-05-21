@@ -15,7 +15,7 @@ from regtree_agent.search import RegTreeSearcher, SearchArtifacts
 from regtree_agent.rules import normalize_dataset_rule_name
 
 
-DEFAULT_QUERY = ""
+DEFAULT_QUERY = "生牛皮（包括水牛皮）、生马皮：未剖层的整张皮，简单干燥的每张重量不超过8千克，干盐腌的不超过10千克，鲜的、湿盐腌的或以其他方法保藏的不超过16千克的6位hs码是什么？"
 
 
 def _progress(message: str) -> None:

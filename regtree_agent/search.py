@@ -12,6 +12,20 @@ import numpy as np
 
 from .config import Settings
 from .online import OnlineClients
+from .prompts import (
+    ANCHOR_SYSTEM_PROMPT,
+    ANCHOR_TASK_TEMPLATE,
+    ANSWER_EXPAND_NOTE,
+    ANSWER_SYSTEM_PROMPT_TEMPLATE,
+    ANSWER_TASK_TEMPLATE,
+    EXTRACT_FINAL_CODE_SYSTEM_PROMPT,
+    EXTRACT_FINAL_CODE_TASK_TEMPLATE,
+    PLAN_NEXT_ROUND_SYSTEM_PROMPT,
+    PLAN_NEXT_ROUND_TASK,
+    SELECT_FIELD_MODE_NOTES,
+    SELECT_SYSTEM_PROMPT_TEMPLATE,
+    SELECT_TASK_TEMPLATE,
+)
 
 CandidateFieldMode = str
 
@@ -237,64 +251,7 @@ _CANDIDATE_EVIDENCE_EXCERPT_MAX_CHARS = 400
 _CANDIDATE_EVIDENCE_MATCH_CONTEXT_CHARS = 30
 _ANSWER_EVIDENCE_MAX_CHARS = 30000
 
-_ANCHOR_SYSTEM_PROMPT = (
-    "你是HS编码法规树检索的锚点提取助手。"
-    "把原始查询拆成短、具体、可检索的词。"
-    "保留商品名称、来源材料、制得来源、关键工艺、直接类目词及明示限定条件。"
-    "由X制得/从X获得/来源于X中的X不是辅料，必须保留。"
-    "anchor_terms 和 constraint_terms 必须来自原始查询明示事实，不得编造。"
-    "输出 JSON，不要解释。"
-)
-_ANCHOR_TASK_TEMPLATE = (
-    "提取 retrieval_query、anchor_terms 和 constraint_terms。"
-    "retrieval_query 为搜索短语，不含任务词。"
-    "anchor_terms：商品本体、来源材料、制得来源、关键工艺、直接类目词，短而具体。"
-    "constraint_terms：规格、用途、材质、形态、等级、含量、型号等限定条件，无则空数组。"
-    "保留来源材料和直接类目词。不得补充原查询未明示的信息。"
-)
-_SELECT_SYSTEM_PROMPT_TEMPLATE = (
-    "你是法规层级检索助手。"
-    "只从给定候选中选择下一步，不得发明候选。"
-    "结合候选提供的字段和你自身的法规商品知识，判断 query 商品与候选的匹配程度。"
-    "候选顺序和召回分值仅供参考，不得作为决策依据。"
-    "商品本体必须直接匹配，不能仅凭共享泛词/限定词视为匹配。"
-    "{field_mode_note}"
-    "输出 JSON，不要解释。"
-)
-_ANSWER_SYSTEM_PROMPT_TEMPLATE = (
-    "你是基于法规树检索证据进行问答的助手。"
-    "只依据给定节点与证据回答，不得使用外部知识。"
-    "必须先确认证据中存在与 query 核心商品名的直接匹配。"
-    "query 中可能包含不影响归类的冗余描述（如商业规格、具体数值细节、品牌、型号等），不需要逐一验证所有条件。"
-    "区分：影响归类的核心要素（商品本体、成分含量、功能用途、加工工艺、材质形态等）必须有证据支持；"
-    "商业规格（品牌、型号、批号、生产日期、特定客户要求等）通常不影响归类，无需在证据中逐一验证。"
-    "目标是在已检索的节点中，找到最符合 query 核心商品描述的归类，不要求 query 每个条件都完美对应。"
-    "{expand_note}"
-    "输出 JSON，不要解释。"
-)
-_ANSWER_TASK_TEMPLATE = (
-    "基于检索节点与证据回答问题。\n"
-    "原则：query 中可能包含冗余条件（如品牌、型号、日期、具体数值细节等），不需要全部验证。"
-    "目标是在已检索的节点中，找到最符合 query 核心商品的归类，不要求 query 每个字都完美对应。\n"
-    "步骤：1.证据汇总（标明来源，优先阅读 full_text）；\n"
-    "2.推理分析：先确认商品本体匹配，再核对影响归类的核心要素（成分、用途、工艺、材质等）。"
-    "对于商业规格（品牌、型号、日期、批号、特定客户参数等），除非税则明文将其列为归类条件，否则不要求证据支持。"
-    "只有当核心归类要素与证据矛盾时才排除；如果仅是商业信息无证据，不应因此拒绝编码。"
-    "3.编码确认：只要商品本体和影响归类的核心要素由证据支持，即可输出最细粒度编码。"
-    "4.结论：核心要素充分则给出编码；仅当核心归类要素缺失或矛盾时才说明无法确定。"
-)
-_EXTRACT_FINAL_CODE_SYSTEM_PROMPT = (
-    "你是HS编码结构化提取助手。"
-    "你需要根据最终总结答案与候选节点，提取最终应输出的HS编码。"
-    "不要解释，不要输出额外文字。"
-    "输出必须是 JSON 对象。"
-)
-_EXTRACT_FINAL_CODE_TASK_TEMPLATE = (
-    "从最终答案中提取唯一的HS编码。"
-    "如果答案只明确到heading，则输出heading编码并让调用方补 00；"
-    "如果答案明确到subheading，则直接输出。"
-    "若答案不足以确定，则返回空字符串。"
-)
+
 
 _JUDGMENT_ANCHOR_RE = re.compile(
     r"(是否允许|归类规则|含量限制|改变用途|关键判定标准|归类争议|对归类的影响|区别|影响|争议|标准)",
@@ -966,9 +923,9 @@ class RegTreeSearcher:
         progress: Callable[[str], None] | None = None,
         print_llm_inputs: bool = False,
     ) -> dict[str, Any]:
-        system_prompt = _ANCHOR_SYSTEM_PROMPT
+        system_prompt = ANCHOR_SYSTEM_PROMPT
         prompt = {
-            "task": _ANCHOR_TASK_TEMPLATE,
+            "task": ANCHOR_TASK_TEMPLATE,
             "query": query,
             "examples": [
                 {
@@ -1241,30 +1198,17 @@ class RegTreeSearcher:
         depth: int,
         progress: Callable[[str], None] | None = None,
         print_llm_inputs: bool = False,
+        print_answer_trace: bool = False,
     ) -> dict[str, Any]:
         candidate_field_mode = _normalize_candidate_field_mode(candidate_field_mode)
-        field_mode_note = {
-            "title_only": "当前消融设置只提供 code、title、node_type。",
-            "title_evidence": "当前消融设置提供 code、title、node_type 和 evidence excerpt。",
-            "title_text": "当前设置不向候选包提供 text，只提供 code、title、node_type。",
-            "full": "当前设置提供 code、title、node_type、notes、definitions 和 evidence excerpt，不提供 text。",
-        }[candidate_field_mode]
-        system_prompt = _SELECT_SYSTEM_PROMPT_TEMPLATE.format(field_mode_note=field_mode_note)
+        field_mode_note = SELECT_FIELD_MODE_NOTES[candidate_field_mode]
+        system_prompt = SELECT_SYSTEM_PROMPT_TEMPLATE.format(field_mode_note=field_mode_note)
         llm_candidates = []
         for item in candidates:
             llm_candidates.append(_llm_candidate_for_mode(item, candidate_field_mode))
         prompt = {
-            "task": (
-                "选择最合理的下一跳并打分。stop=true 表示不再下钻。"
-                f"{field_mode_note}"
-                "原则：1.结合你的商品法规和领域知识判断本体是否匹配，不能只共享泛词/限定词；"
-                "2.候选顺序不代表正确性；3.candidate_scores 综合候选字段和你的知识判断匹配度；"
-                "4.明确排除 query 的候选 match_score<0.2；"
-                "5.优先选择覆盖商品本体和所有限定条件的最细粒度候选；"
-                "6.本体不匹配不得 stop。"
-            ),
+            "task": SELECT_TASK_TEMPLATE.format(field_mode_note=field_mode_note),
             "query": query,
-            "depth": depth,
             "current_node": {
                 "code": parent_node["code"],
                 "title": parent_node["title"],
@@ -1275,19 +1219,58 @@ class RegTreeSearcher:
             },
             "candidates": llm_candidates,
             "output_schema": {
+                "candidate_scores": "对所有候选包中的 candidates 进行打分，评分依据是候选内容与 query 之间的匹配程度，且必须确保覆盖所有 candidates。",
                 "selected_id": "必须是 candidates 中某个 id；如果 stop=true 也保留最优候选 id",
-                "alternate_ids": "可选。除主选节点外，建议保留继续探索的0到2个备选候选id数组，只能来自 candidates",
-                "candidate_scores": "数组。每项包含 id、match_score(0到1)；必须覆盖所有 candidates",
                 "stop": "布尔值，是否在当前所选节点停止继续下钻",
-                "confidence": "0 到 1 的浮点数；表示对 selected_id 这个选择动作的整体置信度，不等于候选 match_score",
-                "reason": "一句中文理由",
+                "confidence": "0 到 1 的浮点数；表示对 selected_id 这个选择动作的整体置信度。",
+                "reason": "理由说明",
             },
         }
+        if print_answer_trace and progress is not None:
+            progress(
+                f"select[depth={depth + 1}] formula input -> "
+                + _serialize_json_payload(
+                    {
+                        "formula": "(v_{t+1}, sigma_t, rho_t, eta_t) = F_theta(x, v_t, {Gamma(u)}_{u in C_t(x)})",
+                        "x": query,
+                        "v_t": {
+                            "code": parent_node["code"],
+                            "title": parent_node["title"],
+                            "node_type": parent_node["node_type"],
+                        },
+                        "C_t(x)": [
+                            {
+                                "u": {
+                                    "id": item["id"],
+                                    "code": item["code"],
+                                    "title": item["title"],
+                                    "node_type": item["node_type"],
+                                },
+                                "Gamma(u)": _candidate_package(item),
+                            }
+                            for item in candidates
+                        ],
+                    }
+                )
+            )
         if print_llm_inputs and progress is not None:
             progress(f"llm[select][depth={depth + 1}] request -> " + _serialize_llm_payload(system_prompt, prompt))
         response_payload = self.clients.chat_json(system_prompt, json.dumps(prompt, ensure_ascii=False, separators=(',', ':')))
         if print_llm_inputs and progress is not None:
             progress(f"llm[select][depth={depth + 1}] response -> " + _serialize_json_payload(response_payload))
+        if print_answer_trace and progress is not None:
+            progress(
+                f"select[depth={depth + 1}] formula output -> "
+                + _serialize_json_payload(
+                    {
+                        "formula": "(v_{t+1}, sigma_t, rho_t, eta_t) = F_theta(x, v_t, {Gamma(u)}_{u in C_t(x)})",
+                        "v_{t+1}": response_payload.get("selected_id", ""),
+                        "sigma_t": response_payload.get("stop", False),
+                        "rho_t": _confidence_value(response_payload.get("confidence")),
+                        "eta_t": response_payload.get("reason", ""),
+                    }
+                )
+            )
         return response_payload
 
     def _emit_candidate_packages(
@@ -1505,20 +1488,9 @@ class RegTreeSearcher:
         print_llm_inputs: bool = False,
         print_answer_trace: bool = False,
     ) -> dict[str, Any]:
-        system_prompt = (
-            "你是法规检索规划助手。"
-            "判断是否继续搜索并输出下一步动作。"
-            "避免重复已有路线，不得把原查询未提供的属性当成事实加入下一轮 query。"
-            "输出 JSON，不要解释。"
-        )
+        system_prompt = PLAN_NEXT_ROUND_SYSTEM_PROMPT
         prompt = {
-            "task": (
-                "判断是否需要继续法规树搜索。先选 action 再给出下一步。"
-                "action：refine_query=细化主分支；switch_sibling=改查相邻分支；"
-                "compare_branches=区分冲突分支；stop=停止。"
-                "next_query 以 original_query 事实为主，更短更聚焦，保留2-5个验证片段。"
-                "仅 compare_branches 时保留新的区分标准词。"
-            ),
+            "task": PLAN_NEXT_ROUND_TASK,
             "original_query": original_query,
             "remaining_rounds": remaining_rounds,
             "explored_rounds": explored_rounds,
@@ -1572,17 +1544,10 @@ class RegTreeSearcher:
         answer_stage: str = "round",
         expand_from_root: bool = False,
     ) -> dict[str, Any]:
-        expand_note = (
-            "\n当前搜索模式为从根节点逐层展开（未使用全局检索），"
-            "搜索路径更长，误入错误分支的风险更高。"
-            "请更严格地验证商品本体和核心归类要素是否与证据完全匹配，"
-            "任何不确定之处都应降低 confidence。"
-            if expand_from_root
-            else ""
-        )
-        system_prompt = _ANSWER_SYSTEM_PROMPT_TEMPLATE.format(expand_note=expand_note)
+        expand_note = ANSWER_EXPAND_NOTE if expand_from_root else ""
+        system_prompt = ANSWER_SYSTEM_PROMPT_TEMPLATE.format(expand_note=expand_note)
         prompt = {
-            "task": _ANSWER_TASK_TEMPLATE,
+            "task": ANSWER_TASK_TEMPLATE,
             "query": query,
             "retrieved_nodes": retrieved_nodes,
             "evidence": evidence,
@@ -1641,8 +1606,8 @@ class RegTreeSearcher:
         progress: Callable[[str], None] | None = None,
         print_llm_inputs: bool = False,
     ) -> str:
-        system_prompt = _EXTRACT_FINAL_CODE_SYSTEM_PROMPT
-        task_text = _EXTRACT_FINAL_CODE_TASK_TEMPLATE
+        system_prompt = EXTRACT_FINAL_CODE_SYSTEM_PROMPT
+        task_text = EXTRACT_FINAL_CODE_TASK_TEMPLATE
         prompt = {
             "task": task_text,
             "query": query,
@@ -1908,6 +1873,7 @@ class RegTreeSearcher:
                     depth=depth,
                     progress=progress,
                     print_llm_inputs=print_llm_inputs,
+                    print_answer_trace=print_answer_trace,
                 )
             selected_id = self._coerce_selected_id(choice, candidates)
             llm_match_scores = self._coerce_candidate_match_scores(choice, candidates)

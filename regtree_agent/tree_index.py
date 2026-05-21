@@ -17,6 +17,12 @@ if __package__ in {None, ""}:
         sys.path.insert(0, str(ROOT))
     from regtree_agent.config import Settings
     from regtree_agent.online import OnlineClients
+    from regtree_agent.prompts import (
+        CHUNK_EXTRACT_SYSTEM_PROMPT,
+        CHUNK_EXTRACT_TASK,
+        WINDOW_SPLIT_SYSTEM_PROMPT,
+        WINDOW_SPLIT_TASK,
+    )
     from regtree_agent.rules import (
         ExtractionRuleProfile,
         default_rule_file,
@@ -29,6 +35,12 @@ if __package__ in {None, ""}:
 else:
     from .config import Settings
     from .online import OnlineClients
+    from .prompts import (
+        CHUNK_EXTRACT_SYSTEM_PROMPT,
+        CHUNK_EXTRACT_TASK,
+        WINDOW_SPLIT_SYSTEM_PROMPT,
+        WINDOW_SPLIT_TASK,
+    )
     from .rules import (
         ExtractionRuleProfile,
         default_rule_file,
@@ -246,11 +258,7 @@ def _build_llm_window_prompt(
     overlap_paragraphs: int,
 ) -> dict[str, Any]:
     return {
-        "task": (
-            "请把法规文本按语义完整性切分为若干检索窗口。"
-            "不要改写原文，不要生成新文本，只返回每个窗口覆盖的段落编号范围。"
-            "尽量让定义、排除项、同一条款说明保持在同一窗口内。"
-        ),
+        "task": WINDOW_SPLIT_TASK,
         "title": title,
         "constraints": {
             "max_chars_per_window": max_chars,
@@ -317,12 +325,7 @@ def _llm_split_block_into_windows(
     if len(paragraphs) == 1:
         return [paragraphs[0]]
 
-    system_prompt = (
-        "你是法规文本切分助手。"
-        "你要根据语义完整性把文本划分成适合检索的窗口。"
-        "不得改写原文，只能返回段落编号范围。"
-        "输出必须是 JSON 对象，不要输出额外解释。"
-    )
+    system_prompt = WINDOW_SPLIT_SYSTEM_PROMPT
     prompt = _build_llm_window_prompt(
         title=title,
         paragraphs=paragraphs,
@@ -859,19 +862,7 @@ def _build_llm_chunk_prompt(
     hierarchy_hints: str = "",
     code_format_hint: str = "",
 ) -> dict[str, Any]:
-    base_task = (
-        "把当前文本块抽取为通用层级结构。"
-        "不要假设文档一定具有固定的章、节、品目或子目格式。"
-        "请只依据原文中可识别的层级、标题、编号、说明、排除项和定义来构造节点树。"
-        "关键要求："
-        "1. 排除项(exclusions)必须完整保留原文——包括'不包括'、'除外'、'不归入'等表达后的所有文字。"
-        "2. 定义(definitions)必须保留原文——包括'包括'、'所称'、'是指'等表达后的所有文字。"
-        "3. text 字段应直接引用原文，不要摘要缩写，保留足够上下文。"
-        "4. 层级深度由原文决定，不要固定为三层。"
-        "5. 如果某个子项下面继续出现数字、字母、括号编号、罗马数字或其他下级编号，必须作为 children 继续嵌套。"
-        "6. 不要把下级编号扁平化到同一层。"
-        "7. 如果文本块内部没有清晰层级，也可以只返回一个单节点。"
-    )
+    base_task = CHUNK_EXTRACT_TASK
     hierarchy_hints_stripped = hierarchy_hints.strip() if hierarchy_hints else ""
     if hierarchy_hints_stripped:
         base_task += f"8. 本文档的层级编码规则如下，必须严格遵循：{hierarchy_hints_stripped}"
@@ -910,12 +901,7 @@ def _llm_extract_chunk_structure(
     hierarchy_hints: str = "",
     code_format_hint: str = "",
 ) -> dict[str, Any]:
-    system_prompt = (
-        "你是法规文本结构化抽取助手。"
-        "你需要从法规原文中抽取层级结构、说明、排除项和定义信息。"
-        "不要编造原文中不存在的编码或标题。"
-        "输出必须是 JSON 对象，不要输出额外解释。"
-    )
+    system_prompt = CHUNK_EXTRACT_SYSTEM_PROMPT
     prompt = _build_llm_chunk_prompt(title=title, text=text, hierarchy_hints=hierarchy_hints, code_format_hint=code_format_hint)
     return clients.chat_json(system_prompt, json.dumps(prompt, ensure_ascii=False, indent=2))
 

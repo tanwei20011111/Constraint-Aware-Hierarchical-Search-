@@ -13,6 +13,12 @@ if str(ROOT) not in sys.path:
 
 from regtree_agent.config import Settings
 from regtree_agent.online import OnlineClients
+from regtree_agent.prompts import (
+    RULE_ANALYSIS_CONSTRAINTS,
+    RULE_ANALYSIS_SYSTEM_PROMPT,
+    RULE_ANALYSIS_TASK,
+    RULE_ENGINE_CONTRACT_IMPORTANT_LIMITS,
+)
 
 
 TEXT_EXTENSIONS = {
@@ -372,13 +378,7 @@ def _normalize_rule_map(dataset_name: str, generated: dict[str, Any]) -> dict[st
 def _build_engine_contract() -> dict[str, Any]:
     return {
         "rule_profile_fields": RULE_PROFILE_FIELDS,
-        "important_limits": [
-            "建树完全由 LLM 完成，rule_profile 只提供辅助信息（元数据前缀、层级编码提示、分块参数）。",
-            "最终建树由 LLM 根据原文 children 递归确定任意层级；不要把规则设计理解为固定三层。",
-            "metadata_prefixes 只应包含样本内容中真实出现、需要从正文剥离的元数据前缀；如果没有元数据行，可输出空数组。",
-            "hierarchy_hints 是给 LLM 建树 prompt 注入的层级编码说明，告诉大模型本文档有几层、每层编码格式如何、code 字段该怎么拼。必须根据 sample_chunks 中观察到的真实编码格式生成。关键要求：（1）先描述层级规则和编码拼接方式；（2）必须包含至少3个「具体提取示例」，每个示例包含：一段真实原文 → 对应的 JSON 提取结果（展示 code 拼接、children 嵌套、exclusions/definitions 归属）。示例应覆盖不同嵌套深度（如两层、三层、四层）以及说明/排除项的处理。格式参照以下模板：\n示例N - X层嵌套：\n原文：3A101 具有以下任一特性的模/数转换器：\n  a．在-54～125 ℃的温度范围内连续工作；\n  c．专门设计或改进成军用...：\n    1．在额定\"精度\"下转换速率大于每秒 200000 次完整的转换；\n提取结果：{code:\"3A101\", children:[{code:\"3A101.a\", title:\"在-54～125 ℃...\"}, {code:\"3A101.c\", children:[{code:\"3A101.c.1\", title:\"在额定精度下...\"}]}]}\n不能用泛泛的描述代替示例。如果文档没有明显的编码层级，输出空字符串。",
-            "code_format_hint 是 output_schema 中 code 字段的具体描述，告诉大模型 code 字段应该填什么格式的值。必须包含具体的编码示例。如果文档没有编码，输出空字符串。",
-        ],
+        "important_limits": RULE_ENGINE_CONTRACT_IMPORTANT_LIMITS,
     }
 
 
@@ -398,15 +398,7 @@ def _build_output_schema(dataset_name: str) -> dict[str, Any]:
 
 
 def _build_constraints() -> list[str]:
-    return [
-        "只输出一个 JSON 对象，不要 Markdown。",
-        "rule_map.default_rule 必须等于 dataset_name。",
-        "不要照搬示例或参考规则；必须根据 sample_chunks 中真实出现的文本格式生成规则。",
-        "不要假设文档一定是法规、税则、清单或某个特定数据集。",
-        "如果样本中存在子项下继续嵌套子项的结构，必须在 analysis.numbering_strategy 中说明如何识别这些层级。",
-        "hierarchy_hints 中必须包含至少 3 个具体提取示例，格式为「原文：... \n提取结果：{code:..., children:[...]}」。示例必须从 sample_chunks 中的真实文本归纳，覆盖不同嵌套深度和说明/排除项场景。不能只写泛泛的编码规则描述，必须给出可参照的 input→output 对照。",
-        "hierarchy_hints 中的提取示例，code 字段必须展示完整的层级拼接路径（如 3A101.c.1 而非 c.1 或 1），这是大模型构图时最重要的参照。",
-    ]
+    return RULE_ANALYSIS_CONSTRAINTS
 
 
 def _build_prompt(
@@ -420,7 +412,7 @@ def _build_prompt(
     samples: list[dict[str, Any]],
 ) -> str:
     payload = {
-        "task": "只根据给定文本内容样本，归纳该数据集的结构特征，并生成当前 regtree 代码可直接加载的规则 profile 和 rule_map。",
+        "task": RULE_ANALYSIS_TASK,
         "dataset_name": dataset_name,
         "source": source_description,
         "source_count": total_sources,
@@ -516,7 +508,7 @@ def main() -> None:
     for attempt in range(1, max_retries + 1):
         try:
             generated = clients.chat_json(
-                "你是文档规则抽取配置生成助手。你必须只输出合法 JSON 对象。",
+                RULE_ANALYSIS_SYSTEM_PROMPT,
                 prompt,
             )
             break
