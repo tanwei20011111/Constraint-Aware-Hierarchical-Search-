@@ -1,0 +1,1532 @@
+[
+  {
+    "index": 1,
+    "title": "使用说明",
+    "start_page": 1,
+    "end_page": 1,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0001_0001-0001.txt"
+  },
+  {
+    "index": 2,
+    "title": "使用技巧",
+    "start_page": 2,
+    "end_page": 2,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0002_0002-0002.txt"
+  },
+  {
+    "index": 3,
+    "title": "前言",
+    "start_page": 3,
+    "end_page": 3,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0003_0003-0003.txt"
+  },
+  {
+    "index": 4,
+    "title": "联系我们",
+    "start_page": 4,
+    "end_page": 4,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0004_0004-0004.txt"
+  },
+  {
+    "index": 5,
+    "title": "更新日志",
+    "start_page": 5,
+    "end_page": 5,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0005_0005-0005.txt"
+  },
+  {
+    "index": 6,
+    "title": "归类总规则",
+    "start_page": 6,
+    "end_page": 7,
+    "page_count": 2,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0006_0006-0007.txt"
+  },
+  {
+    "index": 7,
+    "title": "规则三",
+    "start_page": 8,
+    "end_page": 9,
+    "page_count": 2,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0007_0008-0009.txt"
+  },
+  {
+    "index": 8,
+    "title": "规则四",
+    "start_page": 10,
+    "end_page": 11,
+    "page_count": 2,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0008_0010-0011.txt"
+  },
+  {
+    "index": 9,
+    "title": "第一类活动物；动物产品",
+    "start_page": 12,
+    "end_page": 12,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0009_0012-0012.txt"
+  },
+  {
+    "index": 10,
+    "title": "第一章活动物",
+    "start_page": 13,
+    "end_page": 16,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0010_0013-0016.txt"
+  },
+  {
+    "index": 11,
+    "title": "第二章肉及食用杂碎",
+    "start_page": 17,
+    "end_page": 22,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0011_0017-0022.txt"
+  },
+  {
+    "index": 12,
+    "title": "第三章鱼、甲壳动物、软体动物及其他水生无脊椎动物",
+    "start_page": 23,
+    "end_page": 35,
+    "page_count": 13,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0012_0023-0035.txt"
+  },
+  {
+    "index": 13,
+    "title": "第四章乳品；蛋品；天然蜂蜜；其他食用动物产品",
+    "start_page": 36,
+    "end_page": 41,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0013_0036-0041.txt"
+  },
+  {
+    "index": 14,
+    "title": "第五章其他动物产品",
+    "start_page": 42,
+    "end_page": 47,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0014_0042-0047.txt"
+  },
+  {
+    "index": 15,
+    "title": "第二类植物产品",
+    "start_page": 48,
+    "end_page": 48,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0015_0048-0048.txt"
+  },
+  {
+    "index": 16,
+    "title": "第六章活树及其他活植物；鳞茎、根及类似品；插花及装饰",
+    "start_page": 49,
+    "end_page": 51,
+    "page_count": 3,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0016_0049-0051.txt"
+  },
+  {
+    "index": 17,
+    "title": "第七章食用蔬菜、根及块茎",
+    "start_page": 52,
+    "end_page": 59,
+    "page_count": 8,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0017_0052-0059.txt"
+  },
+  {
+    "index": 18,
+    "title": "第八章食用水果及坚果；柑橘属水果或甜瓜的果皮",
+    "start_page": 60,
+    "end_page": 66,
+    "page_count": 7,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0018_0060-0066.txt"
+  },
+  {
+    "index": 19,
+    "title": "第九章咖啡、茶、马黛茶及调味香料",
+    "start_page": 67,
+    "end_page": 72,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0019_0067-0072.txt"
+  },
+  {
+    "index": 20,
+    "title": "第十章谷物",
+    "start_page": 73,
+    "end_page": 77,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0020_0073-0077.txt"
+  },
+  {
+    "index": 21,
+    "title": "第十一章制粉工业产品；麦芽；淀粉；菊粉；面筋",
+    "start_page": 78,
+    "end_page": 83,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0021_0078-0083.txt"
+  },
+  {
+    "index": 22,
+    "title": "第十二章含油子仁及果实；杂项子仁及果实；工业用或药用",
+    "start_page": 84,
+    "end_page": 93,
+    "page_count": 10,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0022_0084-0093.txt"
+  },
+  {
+    "index": 23,
+    "title": "第十三章虫胶；树胶、树脂及其他植物液、汁",
+    "start_page": 94,
+    "end_page": 98,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0023_0094-0098.txt"
+  },
+  {
+    "index": 24,
+    "title": "第十四章编结用植物材料；其他植物产品",
+    "start_page": 99,
+    "end_page": 103,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0024_0099-0103.txt"
+  },
+  {
+    "index": 25,
+    "title": "第三类动、植物或微生物油、脂及其分解产",
+    "start_page": 104,
+    "end_page": 104,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0025_0104-0104.txt"
+  },
+  {
+    "index": 26,
+    "title": "第十五章动、植物或微生物油、脂及其分解产品；精制的食",
+    "start_page": 105,
+    "end_page": 119,
+    "page_count": 15,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0026_0105-0119.txt"
+  },
+  {
+    "index": 27,
+    "title": "第四类食品；饮料、酒及醋；烟草、烟草及烟",
+    "start_page": 120,
+    "end_page": 120,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0027_0120-0120.txt"
+  },
+  {
+    "index": 28,
+    "title": "第十六章肉、鱼、甲壳动物、软体动物及其他水生无脊椎动",
+    "start_page": 121,
+    "end_page": 126,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0028_0121-0126.txt"
+  },
+  {
+    "index": 29,
+    "title": "第十七章糖及糖食",
+    "start_page": 127,
+    "end_page": 131,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0029_0127-0131.txt"
+  },
+  {
+    "index": 30,
+    "title": "第十八章可可及可可制品",
+    "start_page": 132,
+    "end_page": 134,
+    "page_count": 3,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0030_0132-0134.txt"
+  },
+  {
+    "index": 31,
+    "title": "第十九章谷物、粮食粉、淀粉或乳的制品；糕饼点心",
+    "start_page": 135,
+    "end_page": 140,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0031_0135-0140.txt"
+  },
+  {
+    "index": 32,
+    "title": "第二十章蔬菜、水果、坚果或植物其他部分的制品",
+    "start_page": 141,
+    "end_page": 148,
+    "page_count": 8,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0032_0141-0148.txt"
+  },
+  {
+    "index": 33,
+    "title": "第二十一章杂项食品",
+    "start_page": 149,
+    "end_page": 155,
+    "page_count": 7,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0033_0149-0155.txt"
+  },
+  {
+    "index": 34,
+    "title": "第二十二章饮料、酒及醋",
+    "start_page": 156,
+    "end_page": 162,
+    "page_count": 7,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0034_0156-0162.txt"
+  },
+  {
+    "index": 35,
+    "title": "第二十三章食品工业的残渣及废料；配制的动物饲料",
+    "start_page": 163,
+    "end_page": 168,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0035_0163-0168.txt"
+  },
+  {
+    "index": 36,
+    "title": "第二十四章烟草、烟草及烟草代用品的制品；非经燃烧吸用",
+    "start_page": 169,
+    "end_page": 172,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0036_0169-0172.txt"
+  },
+  {
+    "index": 37,
+    "title": "第五类矿产品",
+    "start_page": 173,
+    "end_page": 173,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0037_0173-0173.txt"
+  },
+  {
+    "index": 38,
+    "title": "第二十五章盐；硫磺；泥土及石料；石膏料、石灰及水泥",
+    "start_page": 174,
+    "end_page": 189,
+    "page_count": 16,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0038_0174-0189.txt"
+  },
+  {
+    "index": 39,
+    "title": "第二十六章矿砂、矿渣及矿灰",
+    "start_page": 190,
+    "end_page": 198,
+    "page_count": 9,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0039_0190-0198.txt"
+  },
+  {
+    "index": 40,
+    "title": "第二十七章矿物燃料、矿物油及其蒸馏产品；沥青物质；矿",
+    "start_page": 199,
+    "end_page": 208,
+    "page_count": 10,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0040_0199-0208.txt"
+  },
+  {
+    "index": 41,
+    "title": "第六类化学工业及其相关工业的产品",
+    "start_page": 209,
+    "end_page": 210,
+    "page_count": 2,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0041_0209-0210.txt"
+  },
+  {
+    "index": 42,
+    "title": "第二十八章无机化学品；贵金属、稀土金属、放射性元素及 第1/4部分",
+    "start_page": 211,
+    "end_page": 230,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0042_0211-0230.txt"
+  },
+  {
+    "index": 43,
+    "title": "第二十八章无机化学品；贵金属、稀土金属、放射性元素及 第2/4部分",
+    "start_page": 231,
+    "end_page": 250,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0043_0231-0250.txt"
+  },
+  {
+    "index": 44,
+    "title": "第二十八章无机化学品；贵金属、稀土金属、放射性元素及 第3/4部分",
+    "start_page": 251,
+    "end_page": 270,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0044_0251-0270.txt"
+  },
+  {
+    "index": 45,
+    "title": "第二十八章无机化学品；贵金属、稀土金属、放射性元素及 第4/4部分",
+    "start_page": 271,
+    "end_page": 283,
+    "page_count": 13,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0045_0271-0283.txt"
+  },
+  {
+    "index": 46,
+    "title": "第二十九章有机化学品 第1/3部分",
+    "start_page": 284,
+    "end_page": 303,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0046_0284-0303.txt"
+  },
+  {
+    "index": 47,
+    "title": "第二十九章有机化学品 第2/3部分",
+    "start_page": 304,
+    "end_page": 323,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0047_0304-0323.txt"
+  },
+  {
+    "index": 48,
+    "title": "第二十九章有机化学品 第3/3部分",
+    "start_page": 324,
+    "end_page": 325,
+    "page_count": 2,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0048_0324-0325.txt"
+  },
+  {
+    "index": 49,
+    "title": "第二十九章末附表列有在国际文件中作为精神治疗药物的归入本品目的某些物质。 第1/2部分",
+    "start_page": 326,
+    "end_page": 345,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0049_0326-0345.txt"
+  },
+  {
+    "index": 50,
+    "title": "第二十九章末附表列有在国际文件中作为精神治疗药物的归入本品目的某些物质。 第2/2部分",
+    "start_page": 346,
+    "end_page": 346,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0050_0346-0346.txt"
+  },
+  {
+    "index": 51,
+    "title": "第二十九章末附表列有在国际文件中作为麻醉药或精神治疗药物的归入本品目的某些物质。 第1/5部分",
+    "start_page": 347,
+    "end_page": 366,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0051_0347-0366.txt"
+  },
+  {
+    "index": 52,
+    "title": "第二十九章末附表列有在国际文件中作为麻醉药或精神治疗药物的归入本品目的某些物质。 第2/5部分",
+    "start_page": 367,
+    "end_page": 386,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0052_0367-0386.txt"
+  },
+  {
+    "index": 53,
+    "title": "第二十九章末附表列有在国际文件中作为麻醉药或精神治疗药物的归入本品目的某些物质。 第3/5部分",
+    "start_page": 387,
+    "end_page": 406,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0053_0387-0406.txt"
+  },
+  {
+    "index": 54,
+    "title": "第二十九章末附表列有在国际文件中作为麻醉药或精神治疗药物的归入本品目的某些物质。 第4/5部分",
+    "start_page": 407,
+    "end_page": 426,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0054_0407-0426.txt"
+  },
+  {
+    "index": 55,
+    "title": "第二十九章末附表列有在国际文件中作为麻醉药或精神治疗药物的归入本品目的某些物质。 第5/5部分",
+    "start_page": 427,
+    "end_page": 435,
+    "page_count": 9,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0055_0427-0435.txt"
+  },
+  {
+    "index": 56,
+    "title": "第三十章药品",
+    "start_page": 436,
+    "end_page": 446,
+    "page_count": 11,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0056_0436-0446.txt"
+  },
+  {
+    "index": 57,
+    "title": "第三十一章肥料",
+    "start_page": 447,
+    "end_page": 452,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0057_0447-0452.txt"
+  },
+  {
+    "index": 58,
+    "title": "第三十二章鞣料浸膏及染料浸膏；鞣酸及其衍生物；染料、",
+    "start_page": 453,
+    "end_page": 469,
+    "page_count": 17,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0058_0453-0469.txt"
+  },
+  {
+    "index": 59,
+    "title": "第三十三章精油及香膏；芳香料制品及化妆盥洗品",
+    "start_page": 470,
+    "end_page": 477,
+    "page_count": 8,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0059_0470-0477.txt"
+  },
+  {
+    "index": 60,
+    "title": "第三十四章肥皂、有机表面活性剂、洗涤剂、润滑剂、人",
+    "start_page": 478,
+    "end_page": 486,
+    "page_count": 9,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0060_0478-0486.txt"
+  },
+  {
+    "index": 61,
+    "title": "第三十五章蛋白类物质；改性淀粉；胶；酶",
+    "start_page": 487,
+    "end_page": 494,
+    "page_count": 8,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0061_0487-0494.txt"
+  },
+  {
+    "index": 62,
+    "title": "第三十六章炸药；烟火制品；火柴；引火合金；易燃材料制",
+    "start_page": 495,
+    "end_page": 499,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0062_0495-0499.txt"
+  },
+  {
+    "index": 63,
+    "title": "第三十七章照相及电影用品",
+    "start_page": 500,
+    "end_page": 504,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0063_0500-0504.txt"
+  },
+  {
+    "index": 64,
+    "title": "第三十八章杂项化学产品 第1/2部分",
+    "start_page": 505,
+    "end_page": 524,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0064_0505-0524.txt"
+  },
+  {
+    "index": 65,
+    "title": "第三十八章杂项化学产品 第2/2部分",
+    "start_page": 525,
+    "end_page": 534,
+    "page_count": 10,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0065_0525-0534.txt"
+  },
+  {
+    "index": 66,
+    "title": "第七类塑料及其制品；橡胶及其制品",
+    "start_page": 535,
+    "end_page": 535,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0066_0535-0535.txt"
+  },
+  {
+    "index": 67,
+    "title": "第三十九章塑料及其制品 第1/2部分",
+    "start_page": 536,
+    "end_page": 555,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0067_0536-0555.txt"
+  },
+  {
+    "index": 68,
+    "title": "第三十九章塑料及其制品 第2/2部分",
+    "start_page": 556,
+    "end_page": 561,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0068_0556-0561.txt"
+  },
+  {
+    "index": 69,
+    "title": "第四十章橡胶及其制品",
+    "start_page": 562,
+    "end_page": 580,
+    "page_count": 19,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0069_0562-0580.txt"
+  },
+  {
+    "index": 70,
+    "title": "第八类生皮、皮革、毛皮及其制品；鞍具及挽",
+    "start_page": 581,
+    "end_page": 581,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0070_0581-0581.txt"
+  },
+  {
+    "index": 71,
+    "title": "第四十一章生皮（毛皮除外）及皮革",
+    "start_page": 582,
+    "end_page": 589,
+    "page_count": 8,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0071_0582-0589.txt"
+  },
+  {
+    "index": 72,
+    "title": "第四十二章皮革制品；鞍具及挽具；旅行用品、手提包及类",
+    "start_page": 590,
+    "end_page": 590,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0072_0590-0590.txt"
+  },
+  {
+    "index": 73,
+    "title": "第十五类），马戏团动物用的羽饰等装饰品（应分别归入适当的品目）。",
+    "start_page": 591,
+    "end_page": 594,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0073_0591-0594.txt"
+  },
+  {
+    "index": 74,
+    "title": "第四十三章毛皮、人造毛皮及其制品",
+    "start_page": 595,
+    "end_page": 598,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0074_0595-0598.txt"
+  },
+  {
+    "index": 75,
+    "title": "第九类木及木制品；木炭；软木及软",
+    "start_page": 599,
+    "end_page": 599,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0075_0599-0599.txt"
+  },
+  {
+    "index": 76,
+    "title": "第四十四章木及木制品；木炭 第1/3部分",
+    "start_page": 600,
+    "end_page": 619,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0076_0600-0619.txt"
+  },
+  {
+    "index": 77,
+    "title": "第四十四章木及木制品；木炭 第2/3部分",
+    "start_page": 620,
+    "end_page": 639,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0077_0620-0639.txt"
+  },
+  {
+    "index": 78,
+    "title": "第四十四章木及木制品；木炭 第3/3部分",
+    "start_page": 640,
+    "end_page": 645,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0078_0640-0645.txt"
+  },
+  {
+    "index": 79,
+    "title": "第四十五章软木及软木制品",
+    "start_page": 646,
+    "end_page": 648,
+    "page_count": 3,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0079_0646-0648.txt"
+  },
+  {
+    "index": 80,
+    "title": "第四十六章稻草、秸秆、针茅或其他编结材料制品；篮筐",
+    "start_page": 649,
+    "end_page": 652,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0080_0649-0652.txt"
+  },
+  {
+    "index": 81,
+    "title": "第十类木浆及其他纤维状纤维素浆；回收（废",
+    "start_page": 653,
+    "end_page": 653,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0081_0653-0653.txt"
+  },
+  {
+    "index": 82,
+    "title": "第四十七章木浆及其他纤维状纤维素浆；回收（废碎）纸",
+    "start_page": 654,
+    "end_page": 657,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0082_0654-0657.txt"
+  },
+  {
+    "index": 83,
+    "title": "第四十八章纸及纸板；纸浆、纸或纸板制品 第1/2部分",
+    "start_page": 658,
+    "end_page": 677,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0083_0658-0677.txt"
+  },
+  {
+    "index": 84,
+    "title": "第四十八章纸及纸板；纸浆、纸或纸板制品 第2/2部分",
+    "start_page": 678,
+    "end_page": 682,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0084_0678-0682.txt"
+  },
+  {
+    "index": 85,
+    "title": "第四十九章书籍、报纸、印刷图画及其他印刷品；手稿、",
+    "start_page": 683,
+    "end_page": 691,
+    "page_count": 9,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0085_0683-0691.txt"
+  },
+  {
+    "index": 86,
+    "title": "第十一类纺织原料及纺织制品",
+    "start_page": 692,
+    "end_page": 695,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0086_0692-0695.txt"
+  },
+  {
+    "index": 87,
+    "title": "第五十章至第五十五章或品目58.09的此类纺织材料产品归类的规定来确定归类。",
+    "start_page": 696,
+    "end_page": 698,
+    "page_count": 3,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0087_0696-0698.txt"
+  },
+  {
+    "index": 88,
+    "title": "第五十章至第五十五章并不包括所有的纱线。纱线应根据其特征（规格、加光或上光与否、股",
+    "start_page": 699,
+    "end_page": 701,
+    "page_count": 3,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0088_0699-0701.txt"
+  },
+  {
+    "index": 89,
+    "title": "第五十章至第五十五章的机织物可未漂白，或经洗涤、漂白、染色、色织、印花、起云纹、丝",
+    "start_page": 702,
+    "end_page": 702,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0089_0702-0702.txt"
+  },
+  {
+    "index": 90,
+    "title": "第五十六章至第六十三章包括第五十章至第五十五章未包括的某些种类的纺织物及其他纺织制",
+    "start_page": 703,
+    "end_page": 703,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0090_0703-0703.txt"
+  },
+  {
+    "index": 91,
+    "title": "第五十六章至第六十三章的具有绒面或毛圈面的产品",
+    "start_page": 704,
+    "end_page": 705,
+    "page_count": 2,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0091_0704-0705.txt"
+  },
+  {
+    "index": 92,
+    "title": "第五十章蚕丝",
+    "start_page": 706,
+    "end_page": 709,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0092_0706-0709.txt"
+  },
+  {
+    "index": 93,
+    "title": "第五十一章羊毛、动物细毛或粗毛；马毛纱线及其机织物",
+    "start_page": 710,
+    "end_page": 717,
+    "page_count": 8,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0093_0710-0717.txt"
+  },
+  {
+    "index": 94,
+    "title": "第五十二章棉花",
+    "start_page": 718,
+    "end_page": 725,
+    "page_count": 8,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0094_0718-0725.txt"
+  },
+  {
+    "index": 95,
+    "title": "第五十三章其他植物纺织纤维；纸纱线及其机织物",
+    "start_page": 726,
+    "end_page": 732,
+    "page_count": 7,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0095_0726-0732.txt"
+  },
+  {
+    "index": 96,
+    "title": "第五十四章化学纤维长丝；化学纤维纺织材料制扁条及类",
+    "start_page": 733,
+    "end_page": 736,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0096_0733-0736.txt"
+  },
+  {
+    "index": 97,
+    "title": "第十一类总注释第一部分第（二）款1项〕。",
+    "start_page": 737,
+    "end_page": 740,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0097_0737-0740.txt"
+  },
+  {
+    "index": 98,
+    "title": "第五十五章化学纤维短纤",
+    "start_page": 741,
+    "end_page": 748,
+    "page_count": 8,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0098_0741-0748.txt"
+  },
+  {
+    "index": 99,
+    "title": "第五十六章絮胎、毡呢及无纺织物；特种纱线；线、绳、",
+    "start_page": 749,
+    "end_page": 758,
+    "page_count": 10,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0099_0749-0758.txt"
+  },
+  {
+    "index": 100,
+    "title": "第五十七章地毯及纺织材料的其他铺地制品",
+    "start_page": 759,
+    "end_page": 763,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0100_0759-0763.txt"
+  },
+  {
+    "index": 101,
+    "title": "第五十八章特种机织物；簇绒织物；花边；装饰毯；装饰",
+    "start_page": 764,
+    "end_page": 778,
+    "page_count": 15,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0101_0764-0778.txt"
+  },
+  {
+    "index": 102,
+    "title": "第五十九章浸渍、涂布、包覆或层压的纺织物；工业用纺",
+    "start_page": 779,
+    "end_page": 787,
+    "page_count": 9,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0102_0779-0787.txt"
+  },
+  {
+    "index": 103,
+    "title": "第十一类的其他品目【参见本章注释八（二）】，例如：",
+    "start_page": 788,
+    "end_page": 788,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0103_0788-0788.txt"
+  },
+  {
+    "index": 104,
+    "title": "第六十章针织物及钩编织物",
+    "start_page": 789,
+    "end_page": 794,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0104_0789-0794.txt"
+  },
+  {
+    "index": 105,
+    "title": "第六十一章针织或钩编的服装及衣着附件",
+    "start_page": 795,
+    "end_page": 807,
+    "page_count": 13,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0105_0795-0807.txt"
+  },
+  {
+    "index": 106,
+    "title": "第六十二章非针织或非钩编的服装及衣着附件",
+    "start_page": 808,
+    "end_page": 818,
+    "page_count": 11,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0106_0808-0818.txt"
+  },
+  {
+    "index": 107,
+    "title": "第六十三章其他纺织制成品；成套物品；旧衣着及旧纺织",
+    "start_page": 819,
+    "end_page": 827,
+    "page_count": 9,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0107_0819-0827.txt"
+  },
+  {
+    "index": 108,
+    "title": "第十二类鞋、帽、伞、杖、鞭及其零件；已加",
+    "start_page": 828,
+    "end_page": 828,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0108_0828-0828.txt"
+  },
+  {
+    "index": 109,
+    "title": "第六十四章鞋靴、护腿和类似品及其零件",
+    "start_page": 829,
+    "end_page": 834,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0109_0829-0834.txt"
+  },
+  {
+    "index": 110,
+    "title": "第六十五章帽类及其零件",
+    "start_page": 835,
+    "end_page": 838,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0110_0835-0838.txt"
+  },
+  {
+    "index": 111,
+    "title": "第六十六章雨伞、阳伞、手杖、鞭子、马鞭及其零件",
+    "start_page": 839,
+    "end_page": 841,
+    "page_count": 3,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0111_0839-0841.txt"
+  },
+  {
+    "index": 112,
+    "title": "第六十七章已加工羽毛、羽绒及其制品；人造花；人发制",
+    "start_page": 842,
+    "end_page": 845,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0112_0842-0845.txt"
+  },
+  {
+    "index": 113,
+    "title": "第十三类石料、石膏、水泥、石棉、云母及类",
+    "start_page": 846,
+    "end_page": 846,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0113_0846-0846.txt"
+  },
+  {
+    "index": 114,
+    "title": "第六十八章石料、石膏、水泥、石棉、云母及类似材料的",
+    "start_page": 847,
+    "end_page": 851,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0114_0847-0851.txt"
+  },
+  {
+    "index": 115,
+    "title": "第八十四章或第八十五章。",
+    "start_page": 852,
+    "end_page": 859,
+    "page_count": 8,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0115_0852-0859.txt"
+  },
+  {
+    "index": 116,
+    "title": "第六十九章陶瓷产品",
+    "start_page": 860,
+    "end_page": 872,
+    "page_count": 13,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0116_0860-0872.txt"
+  },
+  {
+    "index": 117,
+    "title": "第七十章玻璃及其制品",
+    "start_page": 873,
+    "end_page": 887,
+    "page_count": 15,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0117_0873-0887.txt"
+  },
+  {
+    "index": 118,
+    "title": "第十一类的任何纺织纤维都要坚韧，在抗拉强度方面比钢还要高，但重量比钢更轻）；不具伸缩性，",
+    "start_page": 888,
+    "end_page": 896,
+    "page_count": 9,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0118_0888-0896.txt"
+  },
+  {
+    "index": 119,
+    "title": "第十四类天然或养殖珍珠、宝石或半宝石、贵",
+    "start_page": 897,
+    "end_page": 897,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0119_0897-0897.txt"
+  },
+  {
+    "index": 120,
+    "title": "第七十一章天然或养殖珍珠、宝石或半宝石、贵金属、包 第1/2部分",
+    "start_page": 898,
+    "end_page": 917,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0120_0898-0917.txt"
+  },
+  {
+    "index": 121,
+    "title": "第七十一章天然或养殖珍珠、宝石或半宝石、贵金属、包 第2/2部分",
+    "start_page": 918,
+    "end_page": 922,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0121_0918-0922.txt"
+  },
+  {
+    "index": 122,
+    "title": "第十五类贱金属及其制品",
+    "start_page": 923,
+    "end_page": 924,
+    "page_count": 2,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0122_0923-0924.txt"
+  },
+  {
+    "index": 123,
+    "title": "第七十二章至第七十六章及第七十八章至第八十一章中的各章包括某些未锻轧的贱金属及这些",
+    "start_page": 925,
+    "end_page": 926,
+    "page_count": 2,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0123_0925-0926.txt"
+  },
+  {
+    "index": 124,
+    "title": "第七十二章钢铁 第1/2部分",
+    "start_page": 927,
+    "end_page": 946,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0124_0927-0946.txt"
+  },
+  {
+    "index": 125,
+    "title": "第七十二章钢铁 第2/2部分",
+    "start_page": 947,
+    "end_page": 953,
+    "page_count": 7,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0125_0947-0953.txt"
+  },
+  {
+    "index": 126,
+    "title": "第七十三章钢铁制品 第1/2部分",
+    "start_page": 954,
+    "end_page": 973,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0126_0954-0973.txt"
+  },
+  {
+    "index": 127,
+    "title": "第七十三章钢铁制品 第2/2部分",
+    "start_page": 974,
+    "end_page": 975,
+    "page_count": 2,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0127_0974-0975.txt"
+  },
+  {
+    "index": 128,
+    "title": "第七十四章铜及其制品",
+    "start_page": 976,
+    "end_page": 986,
+    "page_count": 11,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0128_0976-0986.txt"
+  },
+  {
+    "index": 129,
+    "title": "第七十五章镍及其制品",
+    "start_page": 987,
+    "end_page": 992,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0129_0987-0992.txt"
+  },
+  {
+    "index": 130,
+    "title": "第七十六章铝及其制品",
+    "start_page": 993,
+    "end_page": 1000,
+    "page_count": 8,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0130_0993-1000.txt"
+  },
+  {
+    "index": 131,
+    "title": "第七十七章",
+    "start_page": 1001,
+    "end_page": 1001,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0131_1001-1001.txt"
+  },
+  {
+    "index": 132,
+    "title": "第七十八章铅及其制品",
+    "start_page": 1002,
+    "end_page": 1005,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0132_1002-1005.txt"
+  },
+  {
+    "index": 133,
+    "title": "第七十九章锌及其制品",
+    "start_page": 1006,
+    "end_page": 1009,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0133_1006-1009.txt"
+  },
+  {
+    "index": 134,
+    "title": "第八十章锡及其制品",
+    "start_page": 1010,
+    "end_page": 1013,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0134_1010-1013.txt"
+  },
+  {
+    "index": 135,
+    "title": "第八十一章其他贱金属、金属陶瓷及其制品",
+    "start_page": 1014,
+    "end_page": 1023,
+    "page_count": 10,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0135_1014-1023.txt"
+  },
+  {
+    "index": 136,
+    "title": "第八十二章贱金属工具、器具、利口器、餐匙、餐叉及其",
+    "start_page": 1024,
+    "end_page": 1036,
+    "page_count": 13,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0136_1024-1036.txt"
+  },
+  {
+    "index": 137,
+    "title": "第八十三章贱金属杂项制品",
+    "start_page": 1037,
+    "end_page": 1045,
+    "page_count": 9,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0137_1037-1045.txt"
+  },
+  {
+    "index": 138,
+    "title": "第十六类机器、机械器具、电气设备及其零",
+    "start_page": 1046,
+    "end_page": 1051,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0138_1046-1051.txt"
+  },
+  {
+    "index": 139,
+    "title": "第八十四章核反应堆、锅炉、机器、机械器具及其零件 第1/2部分",
+    "start_page": 1052,
+    "end_page": 1071,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0139_1052-1071.txt"
+  },
+  {
+    "index": 140,
+    "title": "第八十四章核反应堆、锅炉、机器、机械器具及其零件 第2/2部分",
+    "start_page": 1072,
+    "end_page": 1089,
+    "page_count": 18,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0140_1072-1089.txt"
+  },
+  {
+    "index": 141,
+    "title": "第一类过滤器包括： 第1/6部分",
+    "start_page": 1090,
+    "end_page": 1109,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0141_1090-1109.txt"
+  },
+  {
+    "index": 142,
+    "title": "第一类过滤器包括： 第2/6部分",
+    "start_page": 1110,
+    "end_page": 1129,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0142_1110-1129.txt"
+  },
+  {
+    "index": 143,
+    "title": "第一类过滤器包括： 第3/6部分",
+    "start_page": 1130,
+    "end_page": 1149,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0143_1130-1149.txt"
+  },
+  {
+    "index": 144,
+    "title": "第一类过滤器包括： 第4/6部分",
+    "start_page": 1150,
+    "end_page": 1169,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0144_1150-1169.txt"
+  },
+  {
+    "index": 145,
+    "title": "第一类过滤器包括： 第5/6部分",
+    "start_page": 1170,
+    "end_page": 1189,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0145_1170-1189.txt"
+  },
+  {
+    "index": 146,
+    "title": "第一类过滤器包括： 第6/6部分",
+    "start_page": 1190,
+    "end_page": 1205,
+    "page_count": 16,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0146_1190-1205.txt"
+  },
+  {
+    "index": 147,
+    "title": "第八十五章电机、电气设备及其零件；录音机及放声机、 第1/4部分",
+    "start_page": 1206,
+    "end_page": 1225,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0147_1206-1225.txt"
+  },
+  {
+    "index": 148,
+    "title": "第八十五章电机、电气设备及其零件；录音机及放声机、 第2/4部分",
+    "start_page": 1226,
+    "end_page": 1245,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0148_1226-1245.txt"
+  },
+  {
+    "index": 149,
+    "title": "第八十五章电机、电气设备及其零件；录音机及放声机、 第3/4部分",
+    "start_page": 1246,
+    "end_page": 1265,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0149_1246-1265.txt"
+  },
+  {
+    "index": 150,
+    "title": "第八十五章电机、电气设备及其零件；录音机及放声机、 第4/4部分",
+    "start_page": 1266,
+    "end_page": 1277,
+    "page_count": 12,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0150_1266-1277.txt"
+  },
+  {
+    "index": 151,
+    "title": "第十七类车辆、航空器、船舶及有关运输设",
+    "start_page": 1278,
+    "end_page": 1281,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0151_1278-1281.txt"
+  },
+  {
+    "index": 152,
+    "title": "第八十六章铁道及电车道机车、车辆及其零件；铁道及电",
+    "start_page": 1282,
+    "end_page": 1290,
+    "page_count": 9,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0152_1282-1290.txt"
+  },
+  {
+    "index": 153,
+    "title": "第八十七章车辆及其零件、附件，但铁道及电车道车辆除",
+    "start_page": 1291,
+    "end_page": 1309,
+    "page_count": 19,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0153_1291-1309.txt"
+  },
+  {
+    "index": 154,
+    "title": "第八十八章航空器、航天器及其零件",
+    "start_page": 1310,
+    "end_page": 1315,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0154_1310-1315.txt"
+  },
+  {
+    "index": 155,
+    "title": "第八十九章船舶及浮动结构体",
+    "start_page": 1316,
+    "end_page": 1320,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0155_1316-1320.txt"
+  },
+  {
+    "index": 156,
+    "title": "第十八类光学、照相、电影、计量、",
+    "start_page": 1321,
+    "end_page": 1321,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0156_1321-1321.txt"
+  },
+  {
+    "index": 157,
+    "title": "第九十章光学、照相、电影、计量、检验、医疗或外科用 第1/4部分",
+    "start_page": 1322,
+    "end_page": 1341,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0157_1322-1341.txt"
+  },
+  {
+    "index": 158,
+    "title": "第九十章光学、照相、电影、计量、检验、医疗或外科用 第2/4部分",
+    "start_page": 1342,
+    "end_page": 1361,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0158_1342-1361.txt"
+  },
+  {
+    "index": 159,
+    "title": "第九十章光学、照相、电影、计量、检验、医疗或外科用 第3/4部分",
+    "start_page": 1362,
+    "end_page": 1381,
+    "page_count": 20,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0159_1362-1381.txt"
+  },
+  {
+    "index": 160,
+    "title": "第九十章光学、照相、电影、计量、检验、医疗或外科用 第4/4部分",
+    "start_page": 1382,
+    "end_page": 1385,
+    "page_count": 4,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0160_1382-1385.txt"
+  },
+  {
+    "index": 161,
+    "title": "第九十一章钟表及其零件",
+    "start_page": 1386,
+    "end_page": 1397,
+    "page_count": 12,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0161_1386-1397.txt"
+  },
+  {
+    "index": 162,
+    "title": "第九十二章乐器及其零件、附件",
+    "start_page": 1398,
+    "end_page": 1406,
+    "page_count": 9,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0162_1398-1406.txt"
+  },
+  {
+    "index": 163,
+    "title": "第十九类武器、弹药及其零件、附件",
+    "start_page": 1407,
+    "end_page": 1407,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0163_1407-1407.txt"
+  },
+  {
+    "index": 164,
+    "title": "第九十三章武器、弹药及其零件、附件",
+    "start_page": 1408,
+    "end_page": 1412,
+    "page_count": 5,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0164_1408-1412.txt"
+  },
+  {
+    "index": 165,
+    "title": "第二十类杂项制品",
+    "start_page": 1413,
+    "end_page": 1413,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0165_1413-1413.txt"
+  },
+  {
+    "index": 166,
+    "title": "第九十四章家具；寝具、褥垫、弹簧床垫、软座垫及类似",
+    "start_page": 1414,
+    "end_page": 1424,
+    "page_count": 11,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0166_1414-1424.txt"
+  },
+  {
+    "index": 167,
+    "title": "第九十五章玩具、游戏品、运动用品及其零件、附件",
+    "start_page": 1425,
+    "end_page": 1434,
+    "page_count": 10,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0167_1425-1434.txt"
+  },
+  {
+    "index": 168,
+    "title": "第九十六章杂项制品",
+    "start_page": 1435,
+    "end_page": 1450,
+    "page_count": 16,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0168_1435-1450.txt"
+  },
+  {
+    "index": 169,
+    "title": "第二十一类艺术品、收藏品及古物",
+    "start_page": 1451,
+    "end_page": 1451,
+    "page_count": 1,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0169_1451-1451.txt"
+  },
+  {
+    "index": 170,
+    "title": "第九十七章艺术品、收藏品及古物",
+    "start_page": 1452,
+    "end_page": 1457,
+    "page_count": 6,
+    "source_pdf": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释.pdf",
+    "output_file": "/Users/tanwei/work/workspace/code/hscode_Research/LightRag_test/data/进出口税则商品及品目注释_chapters/chunk_0170_1452-1457.txt"
+  }
+]
