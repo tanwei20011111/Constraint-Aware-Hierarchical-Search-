@@ -9,8 +9,8 @@ An LLM-powered hierarchical regulation tree search and QA system.
 ### 1. Install
 
 ```bash
-conda create -n hscode_research python=3.11 -y
-conda activate hscode_research
+conda create -n constraint-search python=3.11 -y
+conda activate constraint-search
 pip install -r requirements.txt
 ```
 
