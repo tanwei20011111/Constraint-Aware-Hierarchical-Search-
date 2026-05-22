@@ -63,6 +63,13 @@ python scripts/regtree_cli.py query --dataset-name my_dataset "titanium dioxide;
 
 ## Algorithm
 
+Stable paper links for anonymous.4open:
+
+- [Tree Construction (H)](docs/tree-construction.md)
+- [Query Compression (Ψ)](docs/query-compression.md)
+- [LLM Candidate Selection (F<sub>θ</sub>)](docs/llm-candidate-selection.md)
+- [Answer Generation (G<sub>θ</sub>)](docs/answer-generation.md)
+
 <h3 id="tree-construction">Tree Construction (H)</h3>
 
 Prompt definition: [`tree_index.py:51-73`](regtree_agent/tree_index.py#L51) · [with rules injection → `tree_index.py:876-911`](regtree_agent/tree_index.py#L876)
